@@ -1,0 +1,128 @@
+//blues
+$danube: #81ABDA;
+$blue-bayoux: #526882;
+$fiord: #405569;
+$blue: #e0edfb;
+$sam-marion: #3A6CA3;
+$steel-blue: #5A8BC1;
+$pickled-bluewood: #293646;
+//yellows
+$milk-punch: #FFF4D6;
+$rob-roy: #E9CD81;
+$kumero: #977824;
+
+a:link {
+  color: $rob-roy;
+}
+
+a:visited {
+  color: $kumero;
+}
+
+a:hover {
+  color: $milk-punch;
+}
+
+.top {
+  font-size: 4em;
+  color: $danube;
+}
+
+button {
+  box-shadow: 0.2em 0.2em 0 black;
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1.3em;
+  text-align: center;
+  padding: 1em;
+  border-radius: 0.75em;
+  font-size: 1.2em;
+  border-color: $steel-blue;
+  background-color: $pickled-bluewood;
+  color: $steel-blue;
+  font-size: 3em;
+}
+
+img {
+  height: 3em;
+  padding-left: 3em;
+  padding-right: 3em;
+  width: 3em;
+}
+
+.output {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+body {
+  background-color: $sam-marion;
+  align-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  white-space: nowrap;
+  color: $pickled-bluewood;
+
+  .well {
+    box-shadow: 0.2em 0.2em 0 black;
+    width: 26em;
+    align-content: center;
+    background-color: $danube;
+    border-radius: 0.75em;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin: 0.25em;
+    padding: 1em;
+    // width: 50em;
+    //margin-top: 2em;
+    h1 {
+      padding-right: 0.5em;
+      width: 5em;
+      white-space: nowrap;
+    }
+
+    .title {
+      display: inline-flex;
+      height: 2em;
+      margin-bottom: 1.5em;
+    }
+
+    .pholder {
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-start;
+      margin-left: -2em;
+    }
+
+    p {
+      align-self: flex-end;
+      padding-left: 2em;
+      padding-right: 2em;
+      font-size: 1.5em;
+    }
+  }
+}
+
+h2 {
+  align-self: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+div.well.offline.hidden {
+  display: none;
+}
+
+div.well.online.hidden {
+  display: none;
+}
+
+div.well.online {
+  background-color: $blue-bayoux;
+}

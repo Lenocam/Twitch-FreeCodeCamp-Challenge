@@ -12,6 +12,7 @@ a:hover {
   color: #81ABDA; }
 
 button {
+  outline: 0;
   -webkit-box-shadow: 0.2em 0.2em 0 black;
   box-shadow: 0.2em 0.2em 0 black;
   width: 40%;

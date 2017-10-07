@@ -23,12 +23,14 @@ a:hover {
   color: $milk-punch;
 }
 
+
 .top {
   font-size: 4em;
   color: $danube;
 }
 
 button {
+  outline: 0;
   box-shadow: 0.2em 0.2em 0 black;
   width: 40%;
   margin-left: auto;
